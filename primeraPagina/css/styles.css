@@ -1,0 +1,204 @@
+.container {
+    background-size: cover;
+    padding: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #a8b9f8;
+    border: 8px ridge #000000;
+    color: black;
+}
+.fuente-personalizada {
+    font-family: "Nombre de la fuente", 'Courier New', Courier, monospace;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/primeraPagina/img/Fondo_De_Pagina.jpg);
+}
+.contenido {
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgba(255, 255, 255, 0.418);
+    border: 2px solid black;
+}
+.figure1{
+    padding-left: 10%;
+}
+.sin-espaciado {
+    padding: 0; /* Elimina cualquier relleno interior de la lista */
+    margin: 0; /* Elimina cualquier margen exterior de la lista */
+}
+.sin-espaciado li {
+    margin: 0; /* Elimina el margen entre los elementos de la lista */
+    padding: 0; /* Elimina el relleno entre los elementos de la lista, si lo hubiera */
+}
+.alinear-derecha {
+    text-align: right; /* Alinea el texto de la lista hacia la derecha */
+}
+.alinear-izquierda li {
+    text-align: left; /* Alinea el punto de la lista hacia la izquierda */
+}
+.imagen-derecha {
+    float: center;
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+header {
+    text-align: center;
+}
+.subrayado-izquierda {
+    text-decoration: underline;
+    text-align: left;
+}
+.contenedor-imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.imagen-centro{
+    align-items: center;
+}
+.texto-centrado {
+    text-align: center;
+    font-weight: bold;
+}
+.centrar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+.center-text {
+    text-align: center;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 650;
+    font-style: italic;
+}
+.contenedor{
+    text-align: center;
+    font-weight: bold;
+}
+.imagenes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.imagen{
+    width: 350px;
+    height: auto;
+}
+.videos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 5px;
+}
+.vid{
+    width: 350px;
+    height: auto;
+}
+.indice {
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+    display: flex;
+    display:block contents;
+    background-color: rgba(75, 73, 73, 0.616);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.indiceSecundario {
+        justify-content: center;
+        margin-top: 30px;
+        gap: 20px;
+        display: flex;
+        display: block, contents;
+        background-color: rgba(75, 73, 73, 0.616);
+    border: 2px solid black;
+    color: black;
+    }
+ul.lista-horizontal{
+    padding: 0;
+    list-style-type: none;
+}
+ul.lista-horizontal li{
+    display: inline;
+    margin-right: 35px;
+    font-size:x-large
+}
+ul.contenedorDeLista {
+    background-color: rgb(88, 87, 87);
+}
+.alineado{
+    border: 5px;
+    margin-left: 5px;
+    padding: 2%;
+}
+.fondo{
+    background-repeat: round;
+    background-image: url(/primeraPagina/img/fondo.webp);
+}
+.font {
+    font-size: xx-large;
+}
+.objetos{
+    color: #0231dd;
+    font-style: italic;
+}
+.npc{
+    color: rgb(0, 114, 70);
+    font-style: italic;
+}
+.enemigo{
+    color: red;
+    font-weight: bold;
+}
+.alrededorLista{
+    list-style-type: none;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: medium;
+}
+.caracteristicas{
+    font-weight: bolder;
+    font-style:inherit ;
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+    font-size: xx-large;
+}
+.caracteristicas2{
+    font-style: oblique;
+    margin-bottom: 5px;
+}
+.textoNota{
+    padding: 5px;
+    margin: 5px;
+    justify-content: center;
+    display: flex;
+    background-color: #999999;
+    border: 2px solid black;
+    font-size: larger;
+    color: black;
+}
+p {
+    font-size: large;
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+}
+.colorTitulos {
+    color: rgb(0, 0, 255);
+}
+.idolos{
+    color: darkred;
+    font-style: italic;
+}
+.Finales h1{
+    text-align: center;
+    
+}
